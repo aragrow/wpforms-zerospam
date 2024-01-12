@@ -1,0 +1,34 @@
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    border: 0;
+    border-top: 1px dotted #efefef;
+}
+
+img {
+    max-width: 100%;
+}
+
+.error {
+    width: $width;
+    padding: $base-padding;
+    color: $error;
+    border-color: $error;
+    border-style: solid;
+}
+
+.info {
+    width: $width;
+    padding: $base-padding;
+    color: $info;
+    border-color: $info;
+    border-style: solid; 
+    border-radius: $half-border-radius;     
+}
